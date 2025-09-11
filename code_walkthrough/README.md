@@ -26,14 +26,20 @@ https://github.com/FlorianPusse/Lingoturk.
 - an IDE of some sort (IntelliJ offers education licenses for free)
 - basic understanding of Lingoturk (see: other documentation pages)
 
+Quickly create an experiment type called "TutorialExperiment" that has two
+fields. We will use this for the code walkthrough.
+- question (String)
+- filepath (String)
+
 
 # Table of Contents
 
 1. [The Very Basics of Web Design](./01-Basic-Overview.md)
-2. [Quick Code Rundown]()
-2. Adding an Image
-3. Adding a Textbox
+2. [Quick Code Rundown](./02-Code-Rundown.md)
+3. Experiment Slide Structure
 4. Iterating Through Questions
-5. Adding a Key Handler on "Enter" Keypress
-6. Displaying a Progress Tracker
-7. Submitting the Answers
+5. Adding a Textbox
+6. Adding an Image
+7. Adding a Key Handler on "Enter" Keypress
+8. Displaying a Progress Tracker
+9. Submitting the Answers
