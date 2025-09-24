@@ -4,7 +4,7 @@ This document will try to explain some portions of the code
 in a semi-interactive manner, including information I had to figure
 out when I first used LingoTurk to create an experiment for a study.
 
-We will start with an empty experiment type and work it into the PictureNaming
+We will start with an empty experiment type and work it into an example
 experiment, such that this document will cover the code required to do the 
 basic changes you will want to make when creating experiments. 
 
@@ -36,10 +36,8 @@ fields. We will use this for the code walkthrough.
 
 1. [The Very Basics of Web Design](./01-Basic-Overview.md)
 2. [Quick Code Rundown](./02-Code-Rundown.md)
-3. Experiment Slide Structure
-4. Iterating Through Questions
-5. Adding a Textbox
-6. Adding an Image
-7. Adding a Key Handler on "Enter" Keypress
-8. Displaying a Progress Tracker
-9. Submitting the Answers
+3. [Experiment Slide Structure](./03-slide-structure.md)
+4. [Adding Basic Elements (Textbox, Slider, Image)](./04-adding-elements.md)
+5. Iterating Through Questions
+6. Displaying a Progress Tracker
+7. Submitting the Answers
