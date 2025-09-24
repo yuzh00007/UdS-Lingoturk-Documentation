@@ -1,19 +1,24 @@
 # LingoTurk Set Up
 Every researcher has access to two instances of LingoTurk, one offline and 
 one online.
-1. Masses (link: https://masses.coli.uni-saarland.de:8080/) is shared by 
-everyone working at the lab. Any changes made here can be seen by everyone. 
-This LingoTurk instance allows the researcher to host their experiment and
-generates a link that can be publically shared with anyone in the world, 
-letting anyone generate responses. Work on this instance is focused on 
-thoroughly testing the experiment before spending money on hiring real 
-participants.
 
-2. Local (likely: http://localhost:9000) is your local development environment. 
+1. **Local** (likely: http://localhost:9000) is your local development environment. 
 The server is hosted on your machine and can be started/stopped at any point. 
 Completely dependent on files on your local machine. This LingoTurk instance 
 is where researchers should begin when creating new experiments and debugging 
 problems.
+
+2. **Masses** (link: https://masses.coli.uni-saarland.de:8080/)
+is the Test Server. It is shared by
+everyone working at the lab. Any changes made here can be seen by everyone.
+This LingoTurk instance allows the researcher to host their experiment and
+generates a link that can be publically shared with anyone in the world,
+letting anyone generate responses. Work on this instance is focused on
+thoroughly testing the experiment before spending money on hiring real
+participants.
+
+There is also the production server, refered to as **Multitude**, which only the 
+administrator has access to. (_insert link_)
 
 
 ### 1.1 Installation:

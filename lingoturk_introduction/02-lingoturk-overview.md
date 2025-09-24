@@ -56,10 +56,14 @@ A typical workflow during development looks like this.
 2. Create Experiment Instance and publish to Prolific (should provide localhost URL)
 3. Make changes to the .js, .html, .css files
 4. Go to Prolific link and test the experiment
-5. Repeat 3-4 as many times as you need (note: any code changes will take effect when you refresh the page, do not need to recreate new instances or republish to Prolific when developing locally)
+5. Repeat 3-4 as many times as you need
+
+> note: any code changes will take effect when you refresh the page, 
+> do not need to recreate new instances or republish to Prolific when developing locally
+
 6. Export to Masses when ready (see CH5. Importing Local Experiment into Masses)
 
-> Note: the only times a new instance is required is if switching to a 
+> Note: the only time you need to create a new instance is if switching to a 
 > different set of experimental materials (in the .csv file) or if additional 
 > experimental materials are being used. however, if adding a new field or 
 > new data columns that need to be used by the code, an entirely new experiment
@@ -67,7 +71,17 @@ A typical workflow during development looks like this.
 
 - **On Masses** 
 (hopefully, once on Masses, the changes will be relatively minor)
-1. Any changes should be made locally, with the experiment type re-exported to
-Masses, and a new instance created and published. Since this is significantly 
-more work than working on a local Lingoturk, it is recommended that the majority
-of your work should be done offline.
+1. Create an instance and publish to Prolific
+2. Share the created URL with pretesters for feedback 
+3. Any necessary changes will be done locally, with the experiment type re-exported to
+Masses, and a new instance created and published. 
+
+> Exporting from local and importing into Masses takes a lot longer than F5-ing
+> your local instance of the experiment. So it is recommended that most
+> of your work should be done on your local server if possible.
+
+- **On Multitude**
+1. Once development and testing is finished, the experiment can be moved to the
+production server. Contact the administrator to start the importing process. Either 
+provide the experiment type name (on Masses) or an exported zip file. Make sure
+that all the media files for the experiment have the correct paths inside the zip file.

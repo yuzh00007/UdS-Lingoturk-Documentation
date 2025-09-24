@@ -21,6 +21,5 @@ local Lingoturk server.
 2. [LingoTurk Overview](./02-lingoturk-overview.md)
 3. [Working with Experiment Instances](03-working-with-instances.md)
 4. [Working with Experiment Types](04-working-with-exp-types.md)
-5. [Importing Local Experiments into Masses](05-importing-experiments.md)
-6. [Working with Media](06-working-with-media.md)
-7. [Querying Results](07-querying-results.md)
+5. [Importing Local Experiments in QA, PROD](05-importing-experiments.md)
+6. [Querying Results](06-querying-results.md)
