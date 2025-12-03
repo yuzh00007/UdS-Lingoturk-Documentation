@@ -1,6 +1,6 @@
 # LingoTurk Documentation
 
-## Tutorials
+## General Documentation
 
 ### 1. [Lingoturk Introduction](lingoturk_introduction/README.md)
 
@@ -15,11 +15,25 @@ This section covers the basics of how to do anything
 within the platform. There is zero focus on code, just the platform itself.
 
 Everything that you can do on the platform is covered with instructions and
-picture examples. After finishing this section, a researcher can start running 
+picture examples. After finishing this section, a researcher can start running
 experiments on their own.
 
+### 2. [Prolific Introduction](prolific_working_with/README.md)
 
-### 2. [Code Walkthrough](code_walkthrough/README.md)
+#### Who is this for?
+
+Anyone who has never worked with Prolific. May be especially pertinent for HiWis
+and students collecting data for their thesis.
+
+#### What does this section cover?
+
+This section contains all the information necessary to publish experiments on Prolific,
+allowing you to start crowdsource data collection.
+
+
+## Tutorials
+
+### 1. [Code Walkthrough](code_walkthrough/README.md)
 
 ** SECTION WIP **
 

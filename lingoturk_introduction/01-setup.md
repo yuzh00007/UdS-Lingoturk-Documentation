@@ -1,6 +1,6 @@
 # LingoTurk Set Up
-Every researcher has access to two instances of LingoTurk, one offline and 
-one online.
+Every researcher has access to the following instances of LingoTurk, one offline and 
+two online.
 
 1. **Local** (likely: http://localhost:9000) is your local development environment. 
 The server is hosted on your machine and can be started/stopped at any point. 
@@ -17,8 +17,11 @@ letting anyone generate responses. Work on this instance is focused on
 thoroughly testing the experiment before spending money on hiring real
 participants.
 
-There is also the production server, refered to as **Multitude**, which only the 
-administrator has access to. (_insert link_)
+3. **Multitude** (link: https://multitude.coli.uni-saarland.de:8080/) 
+is the production server. It is where your final experiments will be hosted and
+ran. Contact the administrator on teams to move your experiment types, 
+including images and audio, to this server. Then create the experiment instances 
+yourself with your data.
 
 
 ### 1.1 Installation:
