@@ -9,10 +9,15 @@ database of shared knowledge to benefit future HiWis and students.
 
 ## Index
 
--  
-- Disable Copy Pasting
-- Drag and Drop
-- Sliders 
+- [Audio](code_snippets/audio.md)
+- [Disable Copy Pasting into Textbox](./code_snippets/disabling-copypaste.md)
+- [Drag and Drop](code_snippets/dragndrop.md)
+- [Keyboard Listeners (Key Presses)](code_snippets/keylistener.md)
+- [Likert Scale](code_snippets/likert.md)
+- [Progress Bar](code_snippets/progressBar.md)
+- [sleep(ms) Equivalent](code_snippets/sleep.md)
+- [Sliders](code_snippets/sliders.md) 
 - Timers
-
+- [Timing Trials](code_snippets/timing.md)
+- [Video](code_snippets/video.md)
 
