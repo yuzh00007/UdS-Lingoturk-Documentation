@@ -11,6 +11,7 @@ database of shared knowledge to benefit future HiWis and students.
 
 - [Audio](code_snippets/audio.md)
 - [Disable Copy Pasting into Textbox](./code_snippets/disabling-copypaste.md)
+- [Disable & Enabling a Button](./code_snippets/buttonEnable.md)
 - [Drag and Drop](code_snippets/dragndrop.md)
 - [Keyboard Listeners (Key Presses)](code_snippets/keylistener.md)
 - [Likert Scale](code_snippets/likert.md)
