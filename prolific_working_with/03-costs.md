@@ -42,12 +42,10 @@ an estimate for how much your study will cost in the floating box on the right s
 of the screen. 
 
 It is important to note that Prolific charges a variable platform fee on top of the payment
-to each participant. This value will change depending on the number of participants 
-in your study. So, you cannot just calculate the total amount for different number
-of participants with a spreadsheet. Unfortunately, if you want to see how much it costs 
-to run a study with 30 vs. 60 participants, you have to manually update the 
-number of participants and see the price change on the website. You cannot assume a doubling
-of price.
+to each participant. This value may change depending on the number of participants 
+in your study. So, to get an estimate of pricing, it is best practice to manually update the 
+number of participants and see the price change on the website. 
+You cannot always assume a doubling of price with a doubling of participants.
 
 Here is a comparison of prices for 30 vs. 60 participants for a 7 minute experiment: 
 

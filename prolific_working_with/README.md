@@ -24,4 +24,4 @@ You can access it here: https://app.prolific.com/
 1. [Workspaces & Projects](01-workspaces-projects.md)
 2. [Study Options & Setup](02-setup-study.md)
 3. [Figuring Costs](03-costs.md)
-4. [Publishing the Study]()
+4. [Publishing the Study](04-publishing.md)

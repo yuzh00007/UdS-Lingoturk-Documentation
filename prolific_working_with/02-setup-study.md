@@ -23,14 +23,24 @@ Make sure to select "External study link".
 
 ### Study Details
 
-**Name**
+**Name and Description**
 
 Note that there is a public facing name and an optional internal facing name.
 The "Study Name" should be somewhat generic, so that the participants do not
 know what the experiment is trying to study.
 
-Of course, the description should also be slightly vague in order to not give
-any critical information away to the participants.
+> Sentence Judgement - Oddity
+
+The description should be a super simple, one line description of the task.
+Also include how long the study is expected to take plus any requirements that
+the participant should know about.
+
+> In this study you will judge how odd sentences are.
+> 
+> The entire study should take no more than 7 minutes. There are no extra requirements
+> for taking part in this study other than access to a desktop computer.
+> 
+> Thank you for your interest in this study!
 
 ![study-deets](./images/study-details.png)
 
@@ -101,13 +111,13 @@ this value above 95 to ensure good results.
 2. Number of previous submissions: 100 - 100000. This is how many previous studies the
 participant has been a part of.
 
-> An example screener: a study on native English listener ratings of nonnative speech. 
+> An example screener for monolingual American English speakers. 
 > 
-> Fluent languages: English
-> First language: English
-> Nationality: United States
-> Place of most time spent before turning 18: United States
-> Bilingual: none just my native language
+> - Fluent languages: English
+> - First language: English
+> - Nationality: United States
+> - Place of most time spent before turning 18: United States
+> - Bilingual: none just my native language
 
 Screener will limit the number of available participants. Prolific will give you an
 estimate of how many users actually fit your requirements. Make sure this number is
@@ -118,3 +128,10 @@ at least above a few thousand for speedy data collection.
 **Submissions**: Select "Once"
 
 **Reject exceptionally fast submissions**: Select "No"
+
+
+
+
+## Longitudial Studies
+
+TODO: Natasha?
