@@ -23,6 +23,16 @@ ran. Contact the administrator on teams to move your experiment types,
 including images and audio, to this server. Then create the experiment instances 
 yourself with your data.
 
+> NOTE: for Masses and Multitude, credentials are shared between all researchers.
+> Ask for the username and password from the administrator or any one in the lab.
+> 
+> Since there is a single shared credential, only one person can be signed in at one time.
+> So it is possible to run into a situation where you are constantly logged out while
+> trying to work with Masses and Multitude due to someone else working on Lingoturk 
+> at the same time.
+> 
+> DO NOT post the credentials anywhere in this documentation. 
+
 
 ### 1.1 Installation:
 Installation link: 

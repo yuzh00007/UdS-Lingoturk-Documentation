@@ -39,10 +39,17 @@ touch anything else in the codebase.
 while not as important during development, because you can hardcode 
 filepaths anywhere when working locally, pictures and audio paths will 
 need to be uploaded to these folders when working on Masses. 
-(see CH6. Working With Media)
 1. public/audio/Experiments/{your-experiment-name}/ 
 2. public/images/Experiments/{your-experiment-name}/ 
 
+> NOTE: Masses has a file size limit when importing .zip files.
+> If the .zip file is too large, you will get a "Request Entity Too Large" error.
+> I don't know the exact size allowance, but I got this error at 50MB. 
+> 
+> What this means for you: 
+> 1. Make sure you delete unused or duplicate media, especially after copying Experiment Types.
+> 2. If your images do not need to be super high definition, rescale them.
+> 3. Audio files are NOT included in the .zip export, so to move them, contact system administrator.
 
 **Summary**: a single experiment type consists mainly of 1 .html, 
 1 .css, and 1 .js file, plus any additional media (i.e. anything 
@@ -61,7 +68,7 @@ A typical workflow during development looks like this.
 > note: any code changes will take effect when you refresh the page, 
 > do not need to recreate new instances or republish to Prolific when developing locally
 
-6. Export to Masses when ready (see CH5. Importing Local Experiment into Masses)
+6. Export to Masses when ready (see CH5. Importing Local Experiment into Masses).
 
 > Note: the only time you need to create a new instance is if switching to a 
 > different set of experimental materials (in the .csv file) or if additional 
@@ -71,14 +78,19 @@ A typical workflow during development looks like this.
 
 - **On Masses** 
 (hopefully, once on Masses, the changes will be relatively minor)
-1. Create an instance and publish to Prolific
+1. Create an instance and publish to Prolific.
 2. Share the created URL with pretesters for feedback 
-3. Any necessary changes will be done locally, with the experiment type re-exported to
-Masses, and a new instance created and published. 
+3. Any necessary changes will be done locally then re-exported to
+Masses. If you import the exported experiment .zip file with the same name, Masses will 
+automatically send you to the homepage without any indication that
+it has done anything. But it has actually overwritten the previous experiment type. 
+This means you do not need to manually delete your old experiment types or instances, 
+just go ahead and import the new exported .zip file containing your new changes. Then
+refresh your old masses URL and the changes should be reflected in this old instance. 
 
-> Exporting from local and importing into Masses takes a lot longer than F5-ing
-> your local instance of the experiment. So it is recommended that most
-> of your work should be done on your local server if possible.
+> Exporting from local and importing into Masses takes longer than F5-ing
+> your local instance of the experiment to see changes. So it is recommended that most
+> of your development work should be done on your local server. It is MUCH faster. 
 
 - **On Multitude**
 1. Once development and testing is finished, the experiment can be moved to the

@@ -33,6 +33,10 @@ all the experimental materials. In this example, we will use the file
 
 ![what table should look like before finishing](images/03-final-table.png)
 
+> NOTE: even though Lingoturk UI has the option to add multiple lists to each experiment instance,
+> we do not typically use this feature. If you are running a between subjects study,
+> it's easier to create multiple separate instances, one for each different .csv file.
+
 - once the data fields are properly aligned, click “Save in Database” to 
 finalize the instance. You should be redirected to the landing page.
 
