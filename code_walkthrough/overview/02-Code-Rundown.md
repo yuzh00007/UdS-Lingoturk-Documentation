@@ -18,9 +18,9 @@ automatically to show the participants different materials or instructions.
 > If you were to view the document source for an experiment, you can see
 > all the HTML code there.
 
-![02-html-example.png](images/02-html-example.png)
+![02-html-example.png](../images/02-html-example.png)
 
-In this example, the <div> is higlighted and displayed because its
+In this example, the \<div> is higlighted and displayed because its
 Angular ng-if directive of "RC.state==..." is fulfilled. However, there are 
 multiple visible green commented out lines with other if statement. The
 HTML that correspond to these directives will only be displayed when 
@@ -53,26 +53,33 @@ Things of note in here:
 You will need to add to this list as you create different pages that need to be
 shown to the participants.
 
-### this.next()
+### this.next() & this.nextQuestion()
 
-This function is called to move between states. You can call it at any time to move
-to the next state. However, a lot of existing experiments also will call it
-from the HTML. 
+These two functions control the flow of content presented to the participant. 
+Both functions can be called at any time in the JS code or through Angular directives
+in the HTML file.
 
-For example, this button defined in the HTML will advance to the next state when
-clicked using an Angular directive.
+`next()` moves between slides while `nextQuestion()` moves between questions.
+If all questions have been iterated through, `nextQuestion()` will also call
+`next()` automatically. 
+
+
+For example, this button defined in the HTML will advance to the next question when 
+clicked. When the last question has been displayed, this button will also advance
+to the next state in `self.allStates` when clicked using an Angular directive.
 ```html
- <button id="next-button" ng-click="RC.next()" type="button">Next</button>
+ <button id="next-button" ng-click="RC.nextQuestion()" type="button">Next</button>
 ```
 
-You can alternatively add specific code to do this as well, something like this. 
-We use jQuery to locate an element with ID "next-button" and call next on a 
-click event. 
-Delete the ng-click directive and add this line anywhere in the .js file
-outside the .ready() call to see it in action.
+Instead of using HTML, this functionality can be accomplished with JS only. 
+Here, use jQuery to locate an element with ID "next-button" and add a click event.
+
 ```javascript
-$("#next-button").on("click", self.next())
+$("#next-button").on("click", self.nextQuestion())
 ```
+
+> Delete the ng-click directive and add this line anywhere in the .js file
+> outside the .ready() call to see it in action.
 
 Another important thing to note in this.next() is the condition for submission.
 The starter logic keeps track of the index of the slide we are currently displaying
