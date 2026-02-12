@@ -12,7 +12,6 @@ a follow along tutorial that will build a working experiment from scratch.
 2. [Quick Code Rundown](./overview/02-Code-Rundown.md)
 3. [Experiment Slide Structure](./overview/03-slide-structure.md)
 
-
 # 2. Experiment Tutorial
 We will start with an empty experiment type and work it into an example
 experiment, by following along, you'll get experience working with Lingoturk
@@ -26,26 +25,19 @@ local Lingoturk server's database.
 
 ### Planned Experiment
 This tutorial will build a experiment type from scratch. The experiment will
-consist of two tasks, one followed by another. The tasks were chosen to be simple
-but help give an idea of how development on Lingoturk works. The tasks are:
-1. Picture Naming (image, multiple choice, text input)
-2. Sentence Oddity (image & sliders)
+consist of a simple task. It takes about an hour to read through and follow
+along. The tutorial aims to provide an idea of how development on Lingoturk works. 
 
-### Angular vs JavaScript
-There are two main ways to control both 1) what/how elements are displayed on the screen
-and 2) the logic powering the elements or their behavior. Using base Javascript requires
-heavily editing the JS file and its functions, whereas using Angular can cut
-down on a lot of the work by incorporating existing code snippets using NG-directives
-into the HTML itself. 
+The final created experiment will be a simple forced choice image naming task
+with an option for participants to provide an alternative through a textbox. 
+This is what it will look like:
 
-There is no right or wrong way to program an experiment and sometimes one way
-makes more sense than the other. And in fact, normally, developers mix the two
-constantly, selecting whichever is more suited for the job at hand.
+![final-experiment](./images/exp1-ui-elements-all.png)
 
-However, in this tutorial, the two planned tasks will be split across these two
-code design philosophies. The Picture Naming task will focus on using NG-directives 
-for controlling its logic, and the Sentence Oddity task will focus on using base 
-Javascript.
+For anyone new to web development, the tutorial will cover how Angular manages 
+data and how that data is presented to the users.
+
+The final JS, HTML, and CSS files are available [here](data/finished-files) for reference.  
 
 ### Prerequisites
 You will need:
@@ -63,19 +55,13 @@ fields. We will use this for the code walkthrough.
 - opt2 (String)
 - opt3 (String)
 
-Then create an experiment instance with [this CSV file](). 
+Then create an experiment instance with [this CSV file](tutorial.csv).
 
 ### Table of Contents
 1. [Adding Slides](./steps/01-adding-slides.md)
 2. [Adding Instructions](./steps/02-adding-instructions.md)
 3. [Preprocessing the Data](steps/03-data-preprocessing.md)
-4. Experiment 1 (mainly Angular Directives)
+4. Experiment Creation
    - [Creating UI Elements](steps/04-adding-exp1-ui-elements.md)
    - [Adding Functionality](steps/05-adding-exp1-functionality.md)
-   - Saving Responses
-5. Experiment 2 (mainly base JavaScript)
-   - [Creating UI Elements](steps/07-adding-exp2-ui-elements.md)
-   - [Adding Functionality](steps/08-adding-exp2-functionality.md)
-   - Saving Responses
-
-
+   - [Saving Responses](steps/06-saving-exp1-responses.md)

@@ -1,0 +1,16 @@
+/* Fill in your CSS code here */
+
+.exp1Image {
+    width: 20%;
+}
+
+.fcButtons {
+    text-align: center;
+    width:150px;
+    margin-top:20px;
+    color: #327ba8;
+}
+
+.btn.selected {
+    background-color: lightblue;
+}
