@@ -37,31 +37,14 @@ This is what it will look like:
 For anyone new to web development, the tutorial will cover how Angular manages 
 data and how that data is presented to the users.
 
-The final JS, HTML, and CSS files are available [here](data/finished-files) for reference.  
-
-### Prerequisites
-You will need:
-- the local copy of the Lingoturk repository, cloned from
-  https://github.com/FlorianPusse/Lingoturk.
-- fully set up pgadmin and Lingoturk backend
-- an IDE of some sort (IntelliJ offers education licenses for free)
-- basic understanding of Lingoturk (see: [Lingoturk Introduction](../lingoturk_introduction/README.md))
-
-Create an experiment type called "TutorialExperiment" that has five
-fields. We will use this for the code walkthrough.
-- id (String)
-- imagePath (String)
-- opt1 (String)
-- opt2 (String)
-- opt3 (String)
-
-Then create an experiment instance with [this CSV file](tutorial.csv).
+The final JS, HTML, and CSS files are available [here](data/finished-files) for reference.
 
 ### Table of Contents
-1. [Adding Slides](./steps/01-adding-slides.md)
-2. [Adding Instructions](./steps/02-adding-instructions.md)
-3. [Preprocessing the Data](steps/03-data-preprocessing.md)
-4. Experiment Creation
+1. [Prerequisites](./steps/00-setup-prereq.md)
+2. [Adding Slides](./steps/01-adding-slides.md)
+3. [Adding Instructions](./steps/02-adding-instructions.md)
+4. [Preprocessing the Data](steps/03-data-preprocessing.md)
+5. Experiment Creation
    - [Creating UI Elements](steps/04-adding-exp1-ui-elements.md)
    - [Adding Functionality](steps/05-adding-exp1-functionality.md)
    - [Saving Responses](steps/06-saving-exp1-responses.md)
