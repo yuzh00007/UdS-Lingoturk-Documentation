@@ -33,9 +33,7 @@ allowing you to start crowdsource data collection.
 
 ## Tutorials
 
-### 1. [Code Walkthrough](code_walkthrough/README.md)
-
-** SECTION WIP **
+### [Code Walkthrough](code_walkthrough/README.md)
 
 #### Who is this for?
 
@@ -43,42 +41,21 @@ Any one who plans on creating their own experiments and modifying experiment typ
 
 #### What does this section cover?
 
-This section will go over how to take an empty or existing 
-Specifically, it walks through the code and explains what is going on under the hood
-with as much commentary as possible. 
-
-The code overview is structured like a tutorial. We start with a blank minimal
-experiment type and, over multiple steps, program in the functions required
-for a specific experimental set up. By the end of this section, we'll have a 
-fully functioning experiment. 
-
-While there's an expectation that you know how to program already, 
-there was an attempt to make the code explanations as beginner friendly as possible.
-There are also many beginner notes scattered through out the documents in order 
-to make this section as friendly as possible to anyone who
-has never worked with front end development before. In fact, this section 
-was started by someone who had zero UI dev experience before LingoTurk, so 
-it's written from their perspective for their past self to use. 
+This section covers the basics of web development. It also contains a tutorial 
+designed to introduce a new Lingoturk user to building their own experiments. 
+Starting with a brand new Experiment Type, the tutorial goes step by step until
+a basic experimental task is fully functional and able to collect participant data.
 
 
 ## Further References
 
-### Code How-Tos 
+### [Code How-Tos](code_howtos/README.md) 
 
 ** SECTION WIP **
 
-This is a list of possible things you may want to implement in your experiment
-and contains code snippets that were previously created to help you get started. 
-
-### Experiment Type Index
-
-** SECTION WIP **
-
-This is a list of experiment types that are currently available on Masses with 
-their already existing functionality. Before you code an element from scratch,
-double check this list - you may potentially be able to reuse a function from an
-existing experiment. 
-
+This is a index of many different code snippets that may be helpful. No need
+to reinvent the wheel, first check to see if someone else in the department
+has already programmed it and documented their solution.  
 
 
 ### [previous_documentation](previous_documentation)

@@ -18,7 +18,6 @@ database of shared knowledge to benefit future HiWis and students.
 - [Progress Bar](code_snippets/progressBar.md)
 - [sleep(ms) Equivalent](code_snippets/sleep.md)
 - [Sliders](code_snippets/sliders.md) 
-- Timers
+- [Timers and Countdown](code_snippets/timers.md)
 - [Timing Trials](code_snippets/timing.md)
 - [Video](code_snippets/video.md)
-
